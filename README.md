@@ -18,10 +18,17 @@
 
 ## 学習時の注意点
 
-| 章 | モデル | データセット | ライセンス |取得元|
+| 章 | モデル | データセット | ライセンス |取得元リンク|
 |:-----------|:------------|:------------|:------------|:------------|
 | 2 | AE、VAE | MNIST| Creative Commons  |https://pytorch.org/vision/0.8/datasets.html |
-| 3 | GAN | MNIST| Creative Commons  |https://pytorch.org/vision/0.8/datasets.html |
+| 3 | DCGAN、CGAN | MNIST| Creative Commons  |https://pytorch.org/vision/0.8/datasets.html |
+| 3 | LSGAN、DCGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
+| 4 | ESRGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
+| 5 | xx | xx| xx  |xx |
+| 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEを参照  |https://conradsanderson.id.au/vidtimit/ |
+| 7 | Endless Summer Datasets | Endless Summer Datasets| xx  |xx |
+
+
 
 
 
