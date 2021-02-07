@@ -18,10 +18,11 @@
 
 ## 学習時の注意点
 
-| 章 | モデル | データセット | ライセンス |
-|:-----------|:------------|:------------|:------------|
-| 2 | AE | MNIST| Creative Commons  |
-| 2 | VAE | MNIST| Creative Commons  |
+| 章 | モデル | データセット | ライセンス |取得元|
+|:-----------|:------------|:------------|:------------|:------------|
+| 2 | AE、VAE | MNIST| Creative Commons  |https://pytorch.org/vision/0.8/datasets.html |
+| 3 | GAN | MNIST| Creative Commons  |https://pytorch.org/vision/0.8/datasets.html |
+
 
 
 ## 正誤表
