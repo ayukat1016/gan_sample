@@ -51,7 +51,7 @@
 | 4 | xx | xx |xx|
 | 5 | xx | xx |xx|
 | 6 | xx | xx |
-| 7 | xx | xx |
+| 7 | StyleGAN2 |![2021 02 08_01](https://user-images.githubusercontent.com/21982866/107151130-52d25080-69a4-11eb-83ff-1d6d24c642cc.png)![2021 02 08_05](https://user-images.githubusercontent.com/21982866/107151201-a80e6200-69a4-11eb-9eaa-d2c6d485787d.png)![2021 02 08_09](https://user-images.githubusercontent.com/21982866/107151263-f7549280-69a4-11eb-8d2f-7ccdefaab869.png)|
 | 8 | xx | xx |
 | 9 | xx | xx |
 
