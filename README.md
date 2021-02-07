@@ -6,7 +6,7 @@
 - 第4章：超解像(ESRGAN)    
 - 第5章：ドメイン変換(pix2pix、CycleGAN)    
 - 第6章：動画変換(Recycle-GAN)
-- 第7章：StyleGAN
+- 第7章：StyleGAN, StyleGAN2
 - 第8章：異常検知(AnoGAN、EfficientGAN)
 - 第9章：3Dデータの生成(3D-α-WGAN-GP)
 - Appendix：理論の補足
@@ -26,18 +26,34 @@
 | 3 | LSGAN、DCGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
 | 4 | ESRGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
 | 5 | pix2pix、CycleGAN | xx| xx  |xx |
-| 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEに利用時の注事事項の記載あり  |https://conradsanderson.id.au/vidtimit/ |
-| 7 | Style GAN | Endless Summer Datasets| xx  |xx |
+| 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEに利用時の注事事項の記載あり|https://conradsanderson.id.au/vidtimit/ |
+| 7 | StyleGAN, StyleGAN2 | Endless Summer Dataset| データセット内のファイルを画像として閲覧できる方法でinternet等で公開したり、販売するのは禁止です。 |https://drive.google.com/file/d/1LM4FtUltzS45PuFyfuSp3I8QdTD8Cu0F/view?usp=sharing |
 | 8 | AnoGAN、EfficientGAN | Fruits 360 dataset | Creative Commons  |https://github.com/antonnifo/fruits-360 |
-| 9 | 3D-α-WGAN-GP | IXI Datasets| Creative Commons |http://brain-development.org/ixi-dataset/ |
+| 9 | 3D-α-WGAN-GP | IXI Dataset| Creative Commons |http://brain-development.org/ixi-dataset/ |
 
 
 ## 学習時の注意点
-| 章 | モデル | 注意点 |学習の時間 |
+| 章 | モデル | 注意点 |学習の目安時間 |
 |:-----------|:------------|:------------|:------------|
-| 3 | LSGAN、DCGAN | 1100エポック前後の猫画像が性能良い| 猫が生成されるまで4時間程度の学習が必要|
-| 4 | ESRGAN | デフォルト設定だとファイルはColabに保存されるので、Google Driveに保存したい場合はセル[36]で保存先をGoogle Driveに変更してください。| 5～6時間程の学習が必要|
-| 7 | StyleGAN | GPUはV100を使用すること、ただし、V100は Colab Proで利用可能ですが、日本では執筆時点でColab Proの利用はできません。| V100で2週間程度|
+| 3 | LSGAN、DCGAN | LSGANよりDCGANの方が猫っぽい画像を生成します。| 5時間程度|
+| 4 | ESRGAN | デフォルト設定だとファイルはColabに保存されるので、Google Driveに保存したい場合はセル[36]で保存先をGoogle Driveに変更してください。| 5～6時間程|
+| 5 | xx | xx| xx |
+| 6 | xx | xx| xx |
+| 7 | StyleGAN、StyleGAN2 | GPUは執筆時点で最速のP100を推奨（理想はV100）。V100は Colab Proで利用可能ですが、日本では執筆時点で利用はできません。| P100で2週間程度|
+| 8 | xx | xx| xx |
+| 9 | 3D-α-WGAN-GP | 特になし | 8時間程度|
+
+
+## 画像生成の例
+| 章 | モデル | 生成画像 |
+|:-----------|:------------|:------------|
+| 3 | DCGAN | ![fake_samples_epoch_1066](https://user-images.githubusercontent.com/40778791/107150334-a8a4f980-69a0-11eb-813f-dc57d52d87f0.png) |
+| 4 | xx | xx |xx|
+| 5 | xx | xx |xx|
+| 6 | xx | xx |
+| 7 | StyleGAN2 |![2021 02 08_01](https://user-images.githubusercontent.com/21982866/107151130-52d25080-69a4-11eb-83ff-1d6d24c642cc.png)![2021 02 08_05](https://user-images.githubusercontent.com/21982866/107151201-a80e6200-69a4-11eb-9eaa-d2c6d485787d.png)![2021 02 08_09](https://user-images.githubusercontent.com/21982866/107151263-f7549280-69a4-11eb-8d2f-7ccdefaab869.png)|
+| 8 | xx | xx |
+| 9 | xx | xx |
 
 
 ## 正誤表
