@@ -48,8 +48,8 @@
 | 章 | モデル | 生成画像 |
 |:-----------|:------------|:------------|
 | 3 | DCGAN | ![fake_samples_epoch_1066](https://user-images.githubusercontent.com/40778791/107150334-a8a4f980-69a0-11eb-813f-dc57d52d87f0.png) |
-| 4 | xx | xx |<img width="58" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107150524-865fab80-69a1-11eb-8c0f-ea5c56b494df.PNG">
-| 5 | xx | xx |
+| 4 | xx | xx |<img width="58" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107150524-865fab80-69a1-11eb-8c0f-ea5c56b494df.PNG">|
+| 5 | xx | xx |<img width="58" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107150634-130a6980-69a2-11eb-8c7a-0733a992af62.PNG">|
 | 6 | xx | xx |
 | 7 | xx | xx |
 | 8 | xx | xx |
