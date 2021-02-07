@@ -47,7 +47,7 @@
 ## 画像生成の例
 | 章 | モデル | 生成画像 |
 |:-----------|:------------|:------------|
-| 3 | DCGAN | xx |
+| 3 | DCGAN | ![fake_samples_epoch_1066](https://user-images.githubusercontent.com/40778791/107150334-a8a4f980-69a0-11eb-813f-dc57d52d87f0.png) |
 | 4 | xx | xx |
 | 5 | xx | xx |
 | 6 | xx | xx |
