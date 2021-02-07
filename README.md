@@ -29,7 +29,7 @@
 | 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEに利用時の注事事項の記載あり  |https://conradsanderson.id.au/vidtimit/ |
 | 7 | Style GAN | Endless Summer Datasets| xx  |xx |
 | 8 | AnoGAN、EfficientGAN | Fruits 360 dataset | Creative Commons  |https://github.com/antonnifo/fruits-360 |
-| 9 | 3D-α-WGAN-GP | IXI Datasets| Creative Commons |http://brain-development.org/ixi-dataset/ |
+| 9 | 3D-α-WGAN-GP | IXI Dataset| Creative Commons |http://brain-development.org/ixi-dataset/ |
 
 
 ## 学習時の注意点
