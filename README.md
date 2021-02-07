@@ -12,11 +12,15 @@
 - Appendix：理論の補足
 
 
-## 変更履歴
+## ライブラリのバージョン
+- matplotlib:3.1.2
+- numpy:1.17.4
+- pandas:0.25.3
+- sklearn:0.21.3
+- mlxtend:0.14.0
 
 
-
-## 学習時の注意点
+## データセット
 
 | 章 | モデル | データセット | ライセンス |取得元リンク|
 |:-----------|:------------|:------------|:------------|:------------|
@@ -24,9 +28,15 @@
 | 3 | DCGAN、CGAN | MNIST| Creative Commons  |https://pytorch.org/vision/0.8/datasets.html |
 | 3 | LSGAN、DCGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
 | 4 | ESRGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
-| 5 | xx | xx| xx  |xx |
-| 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEを参照  |https://conradsanderson.id.au/vidtimit/ |
-| 7 | Endless Summer Datasets | Endless Summer Datasets| xx  |xx |
+| 5 | pix2pix、CycleGAN | xx| xx  |xx |
+| 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEに利用時の注事事項の記載あり  |https://conradsanderson.id.au/vidtimit/ |
+| 7 | Style GAN | Endless Summer Datasets| xx  |xx |
+| 8 | AnoGAN、EfficientGAN | Fruits 360 dataset | Creative Commons  |https://github.com/antonnifo/fruits-360 |
+| 9 | 3D-α-WGAN-GP | IXI Datasets| Creative Commons |http://brain-development.org/ixi-dataset/ |
+
+
+## 学習時の注意点
+
 
 
 
