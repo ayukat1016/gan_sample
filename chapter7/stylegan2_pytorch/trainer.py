@@ -59,6 +59,9 @@ class Trainer:
         learning_rate, beta1, beta2 = self.get_adam_params_adjust_interval(opt.d_reg_interval, opt)
         self.optimizer_d = torch.optim.Adam(self.discriminator.parameters(), lr=learning_rate, betas=(beta1, beta2))
 
+        if not os.path.isdir(self.opt.cache_path):
+            os.makedirs(self.opt.cache_path, exist_ok=True)
+
     def train_generator(self, current_loop_num):
         BaseLayer.set_model_parameter_requires_grad_all(self.generator, True)
         BaseLayer.set_model_parameter_requires_grad_all(self.discriminator, False)
