@@ -38,7 +38,7 @@
 | 3 | LSGAN、DCGAN | LSGANよりDCGANの方が猫っぽい画像を生成します。| 5時間程度|
 | 4 | ESRGAN | デフォルト設定だとファイルはColabに保存されるので、Google Driveに保存したい場合はセル[36]で保存先をGoogle Driveに変更してください。| 5～6時間程|
 | 5 | xx | xx| xx |
-| 6 | xx | xx| xx |
+| 6 |CycleGAN 、Recycle-GAN| 特になし| 半日から数日 |
 | 7 | StyleGAN、StyleGAN2 | GPUは執筆時点で最速のP100を推奨（理想はV100）。V100は Colab Proで利用可能ですが、日本では執筆時点で利用はできません。| P100で2週間程度|
 | 8 | xx | xx| xx |
 | 9 | 3D-α-WGAN-GP | 特になし | 8時間程度|
