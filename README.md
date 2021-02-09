@@ -47,7 +47,7 @@
 ## 画像生成の例
 | 章 | モデル |説明| 生成画像 |
 |:-----------|:---------|:------------|:------------|
-| 3 | DCGAN |xx | ![fakxx |e_samples_epoch_1066](https://user-images.githubusercontent.com/40778791/107150334-a8a4f980-69a0-11eb-813f-dc57d52d87f0.png) |
+| 3 | DCGAN |xx | ![fake_samples_epoch_1066](https://user-images.githubusercontent.com/40778791/107150334-a8a4f980-69a0-11eb-813f-dc57d52d87f0.png) |
 | 4 | xx | xx |xx |xx|
 | 5 | CycleGAN |xx | ![0089](https://user-images.githubusercontent.com/20309500/107369273-eb8fda00-6b24-11eb-9e5b-623f1666403f.png) |
 | 6 | Recycle-GAN |xx | ![A2B](https://user-images.githubusercontent.com/15444879/107294483-d1b4af80-6ab0-11eb-82b7-a44c322eb403.png) |
