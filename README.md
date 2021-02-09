@@ -47,7 +47,7 @@
 ## 生成画像の例
 | 章 | モデル |説明| 生成画像 |
 |:--|:---------|:------------|:------------------------------------------|
-| 3 | DCGAN |ノイズからサイズ128×128の猫カラー画像を生成 | <img width="300" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107382141-e8034f80-6b32-11eb-8029-563864814cfd.png"> |
+| 3 | DCGAN |ノイズからサイズ128×128の猫カラー画像を生成 | <img width="256" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107382141-e8034f80-6b32-11eb-8029-563864814cfd.png"> |
 | 4 | xx | xx |xx |xx|
 | 5 | CycleGAN |xx | ![0089](https://user-images.githubusercontent.com/20309500/107369273-eb8fda00-6b24-11eb-9e5b-623f1666403f.png) |
 | 6 | Recycle-GAN |xx | ![A2B](https://user-images.githubusercontent.com/15444879/107294483-d1b4af80-6ab0-11eb-82b7-a44c322eb403.png) |
