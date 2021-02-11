@@ -28,8 +28,8 @@
 | 4 | ESRGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
 | 5 | pix2pix、CycleGAN | facades | Creative Commons  |https://cmp.felk.cvut.cz/~tylecr1/facade/ |
 | 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEに利用時の注事事項の記載あり|https://conradsanderson.id.au/vidtimit/ |
-| 7 | StyleGAN、StyleGAN2 | Endless Summer Dataset| データセット内の画像をインターネット等で公開したり、販売したりするのは禁止です。 |https://drive.google.com/file/d/1LM4FtUltzS45PuFyfuSp3I8QdTD8Cu0F/view?usp=sharing |
-| 8 | AnoGAN、EfficientGAN | Fruits 360 Dataset | Creative Commons  |https://github.com/antonnifo/fruits-360 |
+| 7 | StyleGAN、StyleGAN2 | Endless Summer Dataset| データセット内のファイルを画像として閲覧できる方法でinternet等で公開したり、販売するのは禁止です。 |https://drive.google.com/file/d/1LM4FtUltzS45PuFyfuSp3I8QdTD8Cu0F/view?usp=sharing |
+| 8 | AnoGAN、EfficientGAN | Fruits 360 Dataset | Creative Commons  |https://data.mendeley.com/datasets/rp73yg93n8/1 |
 | 9 | 3D-α-WGAN-GP | IXI Dataset| Creative Commons |http://brain-development.org/ixi-dataset/ |
 
 
@@ -41,7 +41,7 @@
 | 5 | pix2pix, CycleGAN | 特になし| ５〜８時間程度 |
 | 6 | CycleGAN 、Recycle-GAN| 特になし| 半日から数日 |
 | 7 | StyleGAN、StyleGAN2 | GPUは執筆時点で最速のP100を推奨（理想はV100）。V100は Colab Proで利用可能ですが、有料サービスになります。| P100で2週間程度|
-| 8 | AnoGAN、EfficientGAN | xx| xx |
+| 8 | AnoGAN、EfficientGAN、<br />EfficientGAN_L1 | AnoGAN, EfficientGANで生成精度が悪い場合、EfficientGAN_L1を使用してください。 | 2 ~ 3時間程度 |
 | 9 | 3D-α-WGAN-GP | 特になし | 8時間程度|
 
 
@@ -52,11 +52,11 @@
 | 章 | モデル |説明| 生成画像 |
 |:--|:---------|:------------|:------------------------------------------|
 | 3 | DCGAN |サイズ128×128の猫画像を生成 | <img width="256" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107382141-e8034f80-6b32-11eb-8029-563864814cfd.png"/> |
-| 4 | ESRGAN | xx |xx |xx|
+| 4 | ESRGAN | xx |xx |
 | 5 | CycleGAN |xx | ![0089](https://user-images.githubusercontent.com/20309500/107369273-eb8fda00-6b24-11eb-9e5b-623f1666403f.png) |
 | 6 | Recycle-GAN |xx | ![A2B](https://user-images.githubusercontent.com/15444879/107294483-d1b4af80-6ab0-11eb-82b7-a44c322eb403.png) |
 | 7 | StyleGAN2 |512×512の画像を生成|![2021 02 08_01](https://user-images.githubusercontent.com/21982866/107151130-52d25080-69a4-11eb-83ff-1d6d24c642cc.png)![2021 02 08_05](https://user-images.githubusercontent.com/21982866/107151201-a80e6200-69a4-11eb-9eaa-d2c6d485787d.png)![2021 02 08_09](https://user-images.githubusercontent.com/21982866/107151263-f7549280-69a4-11eb-8d2f-7ccdefaab869.png)|
-| 8 | AnoGAN、EfficientGAN |xx | xx |
+| 8 | AnoGAN、EfficientGAN |96 × 96 のほおずきの画像を生成<br /><br />正常なものはうまく再現され、異常なものは再現されない | ![Screenshot from 2021-02-11 15-54-29](/home/massy/ピクチャ/Screenshot from 2021-02-11 15-54-29.png)<br /><br />![Screenshot from 2021-02-11 15-34-19](/home/massy/ピクチャ/Screenshot from 2021-02-11 15-34-19.png) |
 | 9 | 3D-α-WGAN-GP |xx | ![triple](https://user-images.githubusercontent.com/44970465/107247215-6351fc00-6a74-11eb-8c37-7de5e8457846.png) |
 
 
