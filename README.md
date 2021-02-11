@@ -12,6 +12,7 @@
 - Appendix：理論の補足
 
 ## ライブラリのバージョン
+ライブラリは執筆時点のColabの最新バージョンになります。Colabのライブラリは定期的に最新バージョンに更新されるので、エラーが発生する場合はバージョンを戻してください。
 - torch:1.7.0
 - torchvision:0.8.1
 - pandas:1.1.5
@@ -38,9 +39,9 @@
 | 3 | LSGAN、DCGAN | LSGANよりDCGANの方が猫っぽい画像を生成します。| 5時間程度|
 | 4 | ESRGAN | デフォルト設定だとファイルはColabに保存されるので、Google Driveに保存したい場合はセル[36]で保存先をGoogle Driveに変更してください。| 5～6時間程|
 | 5 | pix2pix, CycleGAN | 特になし| ５〜８時間程度 |
-| 6 |CycleGAN 、Recycle-GAN| 特になし| 半日から数日 |
+| 6 | CycleGAN 、Recycle-GAN| 特になし| 半日から数日 |
 | 7 | StyleGAN、StyleGAN2 | GPUは執筆時点で最速のP100を推奨（理想はV100）。V100は Colab Proで利用可能ですが、日本では執筆時点で利用はできません。| P100で2週間程度|
-| 8 | xx | xx| xx |
+| 8 | AnoGAN、EfficientGAN | xx| xx |
 | 9 | 3D-α-WGAN-GP | 特になし | 8時間程度|
 
 
@@ -67,4 +68,6 @@
 |:-----------|:------------|
 |2/13　|初版　|
 
+## エラー発生時の問い合わせ
 
+## Coalb pro
