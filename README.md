@@ -21,7 +21,7 @@
 
 ## データセット
 | 章 | モデル | データセット | ライセンス |取得元リンク|
-|:-----------|:------------|:------------|:------------|:------------|
+|:-----------|:----------|:------------------------|:------------|:------------|
 | 2 | AE、VAE | MNIST| Creative Commons  |https://pytorch.org/vision/0.8/datasets.html |
 | 3 | DCGAN、CGAN | MNIST| Creative Commons  |https://pytorch.org/vision/0.8/datasets.html |
 | 3 | LSGAN、DCGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
