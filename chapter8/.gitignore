@@ -1,0 +1,5 @@
+data/
+results/
+.ipynb_checkpoints
+*.pyc
+*.pth
