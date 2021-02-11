@@ -40,14 +40,12 @@
 | 4 | ESRGAN | デフォルト設定だとファイルはColabに保存されるので、Google Driveに保存したい場合は出力ファイルのパスの定義(output_dir)をGoogle Driveに変更してください。| 5～6時間程|
 | 5 | pix2pix, CycleGAN | 特になし| ５〜８時間程度 |
 | 6 | CycleGAN 、Recycle-GAN| 特になし| 半日から数日 |
-| 7 | StyleGAN、StyleGAN2 | GPUは執筆時点で最速のP100を推奨（理想はV100）。V100は Colab Proで利用可能ですが、有料サービスになります。| P100で2週間程度|
+| 7 | StyleGAN、StyleGAN2 | GPUは執筆時点で最速のP100を推奨（理想はV100）。| P100で2週間程度|
 | 8 | AnoGAN、EfficientGAN、<br />EfficientGAN_L1 | AnoGAN, EfficientGANで生成精度が悪い場合、EfficientGAN_L1を使用してください。 | 2 ~ 3時間程度 |
 | 9 | 3D-α-WGAN-GP | 特になし | 8時間程度|
 
 
 ## 生成画像の例
-
-生成画像は
 
 | 章 | モデル |説明| 生成画像 |
 |:--|:---------|:------------|:------------------------------------------|
