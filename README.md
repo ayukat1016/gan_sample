@@ -12,7 +12,7 @@
 - Appendix：理論の補足
 
 ## ライブラリのバージョン
-ライブラリは執筆時点のColabの最新バージョンになります。Colabのライブラリは定期的に更新するので、Notebookでエラーが発生する場合はバージョンを戻して実行してください。
+ライブラリは執筆時点のColabの最新バージョンになります。Colabのライブラリは定期的に更新するので、プログラム実行時にエラーが発生する場合はバージョンを戻して実行してください。
 - torch:1.7.0
 - torchvision:0.8.1
 - pandas:1.1.5
@@ -28,7 +28,7 @@
 | 4 | ESRGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
 | 5 | pix2pix、CycleGAN | facades | Creative Commons  |https://cmp.felk.cvut.cz/~tylecr1/facade/ |
 | 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEに利用時の注事事項の記載あり|https://conradsanderson.id.au/vidtimit/ |
-| 7 | StyleGAN、StyleGAN2 | Endless Summer Dataset| データセット内のファイルを画像として閲覧できる方法でinternet等で公開したり、販売するのは禁止です。 |https://drive.google.com/file/d/1LM4FtUltzS45PuFyfuSp3I8QdTD8Cu0F/view?usp=sharing |
+| 7 | StyleGAN、StyleGAN2 | Endless Summer Dataset| データセット内の画像をインターネット等で公開したり、販売したりするのは禁止です。 |https://drive.google.com/file/d/1LM4FtUltzS45PuFyfuSp3I8QdTD8Cu0F/view?usp=sharing |
 | 8 | AnoGAN、EfficientGAN | Fruits 360 Dataset | Creative Commons  |https://github.com/antonnifo/fruits-360 |
 | 9 | 3D-α-WGAN-GP | IXI Dataset| Creative Commons |http://brain-development.org/ixi-dataset/ |
 
@@ -46,6 +46,9 @@
 
 
 ## 生成画像の例
+
+生成画像は
+
 | 章 | モデル |説明| 生成画像 |
 |:--|:---------|:------------|:------------------------------------------|
 | 3 | DCGAN |サイズ128×128の猫画像を生成 | <img width="256" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107382141-e8034f80-6b32-11eb-8029-563864814cfd.png"/> |
@@ -57,7 +60,7 @@
 | 9 | 3D-α-WGAN-GP |xx | ![triple](https://user-images.githubusercontent.com/44970465/107247215-6351fc00-6a74-11eb-8c37-7de5e8457846.png) |
 
 
-## Coalb pro
+## Colab pro
 Colab proは通常のColabよりハイスペックなGPUが利用でき、長時間学習できる有料サービスです。GPU割り当てはガチャですが、高火力GPUのV100が割り当てられることがあります。V100は特にStyleGANの学習に有効です。
 
 https://colab.research.google.com/signup
