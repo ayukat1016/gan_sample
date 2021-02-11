@@ -50,20 +50,12 @@
 | 章 | モデル |説明| 生成画像 |
 |:--|:---------|:------------|:------------------------------------------|
 | 3 | DCGAN |サイズ128×128の猫画像を生成 | <img width="256" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107382141-e8034f80-6b32-11eb-8029-563864814cfd.png"/> |
-| 4 | ESRGAN | 猫の超解像画像を生成 | ![image](https://user-images.githubusercontent.com/34574033/107609881-83a3d580-6c83-11eb-8cfb-acfd78c83b05.png) |
+| 4 | ESRGAN | サイズ128×128の猫の超解像画像を生成 | ![image](https://user-images.githubusercontent.com/34574033/107609881-83a3d580-6c83-11eb-8cfb-acfd78c83b05.png) |
 | 5 | CycleGAN |xx | ![0089](https://user-images.githubusercontent.com/20309500/107369273-eb8fda00-6b24-11eb-9e5b-623f1666403f.png) |
 | 6 | Recycle-GAN |xx | ![A2B](https://user-images.githubusercontent.com/15444879/107294483-d1b4af80-6ab0-11eb-82b7-a44c322eb403.png) |
 | 7 | StyleGAN2 |512×512の画像を生成|![2021 02 08_01](https://user-images.githubusercontent.com/21982866/107151130-52d25080-69a4-11eb-83ff-1d6d24c642cc.png)![2021 02 08_05](https://user-images.githubusercontent.com/21982866/107151201-a80e6200-69a4-11eb-9eaa-d2c6d485787d.png)![2021 02 08_09](https://user-images.githubusercontent.com/21982866/107151263-f7549280-69a4-11eb-8d2f-7ccdefaab869.png)|
-| 8 | AnoGAN、EfficientGAN |96 × 96 のほおずきの画像を生成<br /><br />正常なものはうまく再現され、異常なものは再現されない | ![Screenshot from 2021-02-11 15-54-29](https://user-images.githubusercontent.com/42464037/107609609-cfa24a80-6c82-11eb-877d-988a000a593a.png)<br /><br />![Screenshot from 2021-02-11 15-34-19](https://user-images.githubusercontent.com/42464037/107609619-d5982b80-6c82-11eb-97e4-ca48f6290e9e.png) |
+| 8 | AnoGAN、EfficientGAN |96 × 96 のほおずきの画像を生成<br /><br />上の画像は正常画像でうまく再現され異常スコアが低い、下の画像は異常画像を入力したため、再現が失敗し異常スコアが高い | ![Screenshot from 2021-02-11 15-54-29](https://user-images.githubusercontent.com/42464037/107609609-cfa24a80-6c82-11eb-877d-988a000a593a.png)<br /><br />![Screenshot from 2021-02-11 15-34-19](https://user-images.githubusercontent.com/42464037/107609619-d5982b80-6c82-11eb-97e4-ca48f6290e9e.png) |
 | 9 | 3D-α-WGAN-GP |xx | ![triple](https://user-images.githubusercontent.com/44970465/107247215-6351fc00-6a74-11eb-8c37-7de5e8457846.png) |
-
-
-## Colab pro
-Colab proは通常のColabよりハイスペックなGPUが利用でき、長時間学習できる有料サービスです。GPU割り当てはガチャですが、高火力GPUのV100が割り当てられることがあります。V100は特にStyleGANの学習に有効です。
-
-https://colab.research.google.com/signup
-
-Coab proは執筆時点では日本に一般公開されていません。ただし、Googleアカウントの支払方法にアメリカの州と郵便番号を設定し、クレジットカード登録すると利用可能です。過去にクレジットカード登録済みのアカウントだと利用できない可能性があるので、その際は新規のGoogleアカウントをご準備ください。
 
 
 ## エラー発生時の問い合わせ
