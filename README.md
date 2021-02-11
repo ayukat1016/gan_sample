@@ -6,13 +6,13 @@
 - 第4章：超解像(ESRGAN)    
 - 第5章：ドメイン変換(pix2pix、CycleGAN)    
 - 第6章：動画変換(Recycle-GAN)
-- 第7章：StyleGAN, StyleGAN2
+- 第7章：StyleGAN、StyleGAN2
 - 第8章：異常検知(AnoGAN、EfficientGAN)
 - 第9章：3Dデータの生成(3D-α-WGAN-GP)
 - Appendix：理論の補足
 
 ## ライブラリのバージョン
-ライブラリは執筆時点のColabの最新バージョンになります。Colabのライブラリは定期的に最新バージョンに更新されるので、エラーが発生する場合はバージョンを戻してください。
+ライブラリは執筆時点のColabの最新バージョンになります。Colabのライブラリは定期的に更新するので、Notebookでエラーが発生する場合はバージョンを戻して実行してください。
 - torch:1.7.0
 - torchvision:0.8.1
 - pandas:1.1.5
@@ -28,8 +28,8 @@
 | 4 | ESRGAN | Pet Dataset| Creative Commons  |https://www.robots.ox.ac.uk/~vgg/data/pets/ |
 | 5 | pix2pix、CycleGAN | facades | Creative Commons  |https://cmp.felk.cvut.cz/~tylecr1/facade/ |
 | 6 | Cycle GAN、Recycle-GAN | VidTIMIT Audio-Video Dataset| リンク先のLICENSEに利用時の注事事項の記載あり|https://conradsanderson.id.au/vidtimit/ |
-| 7 | StyleGAN, StyleGAN2 | Endless Summer Dataset| データセット内のファイルを画像として閲覧できる方法でinternet等で公開したり、販売するのは禁止です。 |https://drive.google.com/file/d/1LM4FtUltzS45PuFyfuSp3I8QdTD8Cu0F/view?usp=sharing |
-| 8 | AnoGAN、EfficientGAN | Fruits 360 dataset | Creative Commons  |https://github.com/antonnifo/fruits-360 |
+| 7 | StyleGAN、StyleGAN2 | Endless Summer Dataset| データセット内のファイルを画像として閲覧できる方法でinternet等で公開したり、販売するのは禁止です。 |https://drive.google.com/file/d/1LM4FtUltzS45PuFyfuSp3I8QdTD8Cu0F/view?usp=sharing |
+| 8 | AnoGAN、EfficientGAN | Fruits 360 Dataset | Creative Commons  |https://github.com/antonnifo/fruits-360 |
 | 9 | 3D-α-WGAN-GP | IXI Dataset| Creative Commons |http://brain-development.org/ixi-dataset/ |
 
 
@@ -48,7 +48,7 @@
 ## 生成画像の例
 | 章 | モデル |説明| 生成画像 |
 |:--|:---------|:------------|:------------------------------------------|
-| 3 | DCGAN |ノイズからサイズ128×128の猫画像を生成 | <img width="256" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107382141-e8034f80-6b32-11eb-8029-563864814cfd.png"/> |
+| 3 | DCGAN |サイズ128×128の猫画像を生成 | <img width="256" alt="fake_cat" src="https://user-images.githubusercontent.com/40778791/107382141-e8034f80-6b32-11eb-8029-563864814cfd.png"/> |
 | 4 | xx | xx |xx |xx|
 | 5 | CycleGAN |xx | ![0089](https://user-images.githubusercontent.com/20309500/107369273-eb8fda00-6b24-11eb-9e5b-623f1666403f.png) |
 | 6 | Recycle-GAN |xx | ![A2B](https://user-images.githubusercontent.com/15444879/107294483-d1b4af80-6ab0-11eb-82b7-a44c322eb403.png) |
@@ -56,6 +56,13 @@
 | 8 | xx |xx | xx |
 | 9 | 3D-α-WGAN-GP |xx | ![triple](https://user-images.githubusercontent.com/44970465/107247215-6351fc00-6a74-11eb-8c37-7de5e8457846.png) |
 
+
+## Coalb pro
+Colab proは通常のColabよりハイスペックなGPUが利用でき、長時間学習できる有料サービスです。GPU割り当てはガチャですが、高火力GPUのV100が割り当てられることがあります。V100は特にStyleGANの学習に有効です。
+
+https://colab.research.google.com/signup
+
+Coab proは執筆時点では日本に一般公開されていません。ただし、Googleアカウントの支払方法にアメリカの州と郵便番号を設定し、クレジットカード登録すると利用可能です。過去にクレジットカード登録済みのアカウントだと利用できない可能性があるので、その際は新規のGoogleアカウントをご準備ください。
 
 ## 正誤表
 | ページ | 誤 | 正 | 補足 |
@@ -70,4 +77,4 @@
 
 ## エラー発生時の問い合わせ
 
-## Coalb pro
+
