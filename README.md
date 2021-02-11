@@ -54,7 +54,7 @@
 | 5 | CycleGAN |xx | ![0089](https://user-images.githubusercontent.com/20309500/107369273-eb8fda00-6b24-11eb-9e5b-623f1666403f.png) |
 | 6 | Recycle-GAN |xx | ![A2B](https://user-images.githubusercontent.com/15444879/107294483-d1b4af80-6ab0-11eb-82b7-a44c322eb403.png) |
 | 7 | StyleGAN2 |512×512の画像を生成|![2021 02 08_01](https://user-images.githubusercontent.com/21982866/107151130-52d25080-69a4-11eb-83ff-1d6d24c642cc.png)![2021 02 08_05](https://user-images.githubusercontent.com/21982866/107151201-a80e6200-69a4-11eb-9eaa-d2c6d485787d.png)![2021 02 08_09](https://user-images.githubusercontent.com/21982866/107151263-f7549280-69a4-11eb-8d2f-7ccdefaab869.png)|
-| 8 | AnoGAN、EfficientGAN |サイズ96×96のほおずきの画像を生成<br /><br />左: 入力画像 <br>真ん中: 生成画像 <br>右: 差分画像 <br><br> 上段は本物画像を入力したため、本物と生成の差が小さく異常スコアが低い <br><br> 一方、下段は異常画像を入力したため、生成画像は異常箇所を再現できず、異常スコアが高い | ![Screenshot from 2021-02-11 15-54-29](https://user-images.githubusercontent.com/42464037/107609609-cfa24a80-6c82-11eb-877d-988a000a593a.png)<br /><br />![Screenshot from 2021-02-11 15-34-19](https://user-images.githubusercontent.com/42464037/107609619-d5982b80-6c82-11eb-97e4-ca48f6290e9e.png) |
+| 8 | AnoGAN、EfficientGAN |サイズ96×96のほおずきの画像を生成<br /><br />左側: 入力画像 <br>中央: 生成画像 <br>右側: 差分画像 <br><br> 上段は本物画像を入力したため、本物と生成の差が小さく異常スコアが低い <br><br> 一方、下段は異常画像を入力したため、生成画像は異常箇所を再現できず、異常スコアが高い | ![Screenshot from 2021-02-11 15-54-29](https://user-images.githubusercontent.com/42464037/107609609-cfa24a80-6c82-11eb-877d-988a000a593a.png)<br /><br />![Screenshot from 2021-02-11 15-34-19](https://user-images.githubusercontent.com/42464037/107609619-d5982b80-6c82-11eb-97e4-ca48f6290e9e.png) |
 | 9 | 3D-α-WGAN-GP | サイズ64×64×64の3次元頭部MRIデータを生成 | ![triple](https://user-images.githubusercontent.com/44970465/107612893-979f0580-6c8a-11eb-9326-2ac426368ec6.png) |
 
 
@@ -70,7 +70,7 @@
 ## 正誤表
 | ページ | 誤 | 正 | 補足 |
 |:-----------|:------------|:------------|:------------|
-| xx | xx | xx| xx  |
+| 52 1行目 | パラメータを待つモデル分布 | パラメータを持つモデル分布| 誤字  |
 
 
 ## 変更履歴
