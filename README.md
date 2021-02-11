@@ -1,5 +1,7 @@
 # GANディープラーニング実装ハンドブック
 
+<img width="186" alt="GAN" src="https://user-images.githubusercontent.com/40778791/107626591-6120b500-6ca1-11eb-8598-9b7dad32a119.PNG">
+
 GANディープラーニング実装ハンドブック
 
 ## 章の構成
