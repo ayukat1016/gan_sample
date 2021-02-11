@@ -1,6 +1,8 @@
 # GANディープラーニング実装ハンドブック
 
-<img width="186" alt="GAN" src="https://user-images.githubusercontent.com/40778791/107626591-6120b500-6ca1-11eb-8598-9b7dad32a119.PNG">
+
+<a href="https://www.amazon.co.jp/gp/product/4798062294?pf_rd_r=ZTMA91YPE324B3QHMFNB&pf_rd_p=3d55ec74-6376-483a-a5a7-4e247166f80b&pd_rd_r=225c6ecb-5120-405a-b170-c214443ff320&pd_rd_w=kM9v5&pd_rd_wg=PJNj3&ref_=pd_gw_unk"><img src="https://user-images.githubusercontent.com/40778791/107626591-6120b500-6ca1-11eb-8598-9b7dad32a119.PNG" alt="書籍の画像" width="200" height="300"></a>
+
 
 書籍「[GANディープラーニング実装ハンドブック](https://www.amazon.co.jp/gp/product/4798062294?pf_rd_r=ZTMA91YPE324B3QHMFNB&pf_rd_p=3d55ec74-6376-483a-a5a7-4e247166f80b&pd_rd_r=225c6ecb-5120-405a-b170-c214443ff320&pd_rd_w=kM9v5&pd_rd_wg=PJNj3&ref_=pd_gw_unk)」のサポートサイトです。本書籍で使用するサンプルコードがまとめてあります。
 
