@@ -43,8 +43,8 @@
 ## 学習時の注意点
 | 章 | モデル | 注意点 |学習の目安時間 |
 |:-----------|:------------|:------------|:------------|
-| 3 | LSGAN、DCGAN | LSGANよりDCGANの方が猫っぽい画像を生成します。| 5時間程度|
-| 4 | ESRGAN | デフォルト設定だとファイルはColabに保存されるので、Google Driveに保存したい場合は出力ファイルのパスの定義(output_dir)をGoogle Driveに変更してください。| 5～6時間程|
+| 3 | LSGAN、DCGAN | LSGANよりDCGANの方が猫っぽい画像を生成します。| 5～6時間程度|
+| 4 | ESRGAN | デフォルト設定だとファイルはColabに保存されるので、Google ドライブに保存したい場合は出力ファイルのパスの定義(output_dir)をGoogle Driveに変更してください。| 5～6時間程|
 | 5 | pix2pix, CycleGAN | 特になし| 5〜8時間程度 |
 | 6 | CycleGAN 、Recycle-GAN| 特になし| 半日から数日 |
 | 7 | StyleGAN、StyleGAN2 | GPUは執筆時点で最速のP100を推奨（理想はV100）。| P100で2週間程度|
