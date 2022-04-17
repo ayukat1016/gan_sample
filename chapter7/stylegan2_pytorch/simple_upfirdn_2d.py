@@ -53,7 +53,6 @@ class SimpleUpfirdn2d(nn.Module):
         pad04 = [0, 0]
         pad05 = [0, 0]
         pad06 = [0, 0]
-        # pad_all = batch_in_ch_pad + in_height_pad + in_h_in_w_pad + in_width_pad + in_w_minor_dim_pad + minor_dim_pad
         pad_all = pad00 + pad01 + pad02 + pad03 + pad04 + pad05 + pad06
         x_ = F.pad(x_, pad_all)
         x_ = x_.reshape((-1, in_height * upy, in_width * upx, minor_dim))
@@ -61,7 +60,7 @@ class SimpleUpfirdn2d(nn.Module):
         # crop
         in_height_pad = [max(pady0, 0), max(pady1, 0)]
         in_width_pad = [max(padx0, 0), max(padx1, 0)]
-        pad_crop = pad00 + in_height_pad + in_width_pad + pad06
+        pad_crop = pad00 + in_width_pad + in_height_pad + pad06
         x_ = F.pad(x_, pad_crop)
         x_ = x_[:, max(-pady0, 0):x_.shape[1] - max(-pady1, 0), max(-padx0, 0):x_.shape[2] - max(-padx1, 0), :]
 
