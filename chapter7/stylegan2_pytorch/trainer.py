@@ -152,8 +152,9 @@ class Trainer:
 
         # train discriminator
         for index in range(0, self.opt.discriminator_train_num):
-            data_iterator = self.dataloader.__iter__()
-            imgs = data_iterator.next()
+            data_iterator = iter(self.dataloader)
+            imgs = next(data_iterator)
+            
             # imgs = TranformDynamicRange.fade_lod(x=imgs, lod=0.0)
             # imgs = TranformDynamicRange.upscale_lod(x=imgs, lod=0.0)
             real_imgs = Variable(imgs.type(self.Tensor), requires_grad=False)
