@@ -19,7 +19,7 @@ class MiniBatchStddevLayer(BaseLayer):
 
         # y.mean: [1, 8, 1, 512, 4, 4]
         # y: [4, 8, 1, 512, 4, 4]
-        y -= y.mean(dim=0, keepdims=True)
+        y = y - y.mean(dim=0, keepdims=True)
         y = y * y
 
         # y: [8, 1 512, 4, 4]
